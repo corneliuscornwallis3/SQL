@@ -1,1 +1,5 @@
+/* 
+Find Manhattan distance between p1 and p2 where p1 is (a1,b1) where a1, b1 are the max, min lat_n and p2 is (a2,b2) where a2,b2 are the max, min long_w respectively
+*/
+
 select round((max(lat_n)-min(lat_n))+(max(long_w)-min(long_w)),4) from station
